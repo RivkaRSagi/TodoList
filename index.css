@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(233, 243, 247);
+}
+.mainContainer {
+    text-align: center;
+    height: 38em;
+    padding-top: 30px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bodyContainer {
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(177, 202, 210);
+    border-radius: 1em;
+    text-align: center;
+    float: left;
+    margin-left: 1em;    
+    margin-top: 1em;
+}
+
+.bodyContainer h3{
+    font-size: 1.25em;
+    text-align: left;
+    white-space: nowrap;
+    padding-left: 5px;
+}
+
+.bodyContainer p{
+    text-align: left;
+}
+
+.decorate1{
+    border:rgb(183, 198, 203);
+    border-style: solid none solid none;
+    border-width: 5px;
+    height: 250px;
+    opacity: calc(75%);
+    background-image: url("indexBackground.png");
+    background-size: 350px 250px;
+    background-repeat: repeat-x; 
+    margin-bottom: 150px;
+}
+
+.reviewBox{
+    padding: 30px;
+    line-height: 25px;
+}
+
+a button{
+    background-color: rgb(1, 1, 122);
+    color: rgb(205, 224, 230);
+    border-color: rgb(1, 1, 122);
+    white-space: nowrap;
+    margin-bottom: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+    /* border-radius: 20%; */
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    font-size: 20pt;
+    font-weight:bold;
+
+}
+a button:hover{
+    opacity: 80%;
+}
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    font-size: 65pt;
+    color:rgb(1, 1, 122);
+    border-bottom: 10pt dashed rgb(183, 198, 203);
+    padding-top: 75px;
+    padding-bottom: 75px;
+    border-top: 2pt solid rgb(183, 198, 203);
+    height: 100pt;
+}
+
+h2{
+    font-size:40px;
+    text-decoration: underline;
+    /* padding: 20px; */
+}
+
+h3{
+    /* margin-top:10px; */
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.title{
+    /* background-image: url("WebProgrammingLogo.png");
+    background-size: 400px 300px;
+    background-repeat: repeat-x; */
+    width: 100%;
+    height: 200pt;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20pt;
+    margin-bottom: 100pt;
+    text-align: center;
+}
+
+.leftLogo{
+    background-image: url("centerdlogoforRivka.png");
+    background-size: 345px 305px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    width: 350px;
+    height: 305px;
+}
+.rightLogo{
+    background-image: url("centerdlogoforRivka.png");
+    background-size: 345px 305px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:right;
+    width: 350px;
+    height: 305px;
+}
+
+.viewSaved{
+    font-size: 50px;
+    color: rgb(1, 1, 122);
+}
+
+.savedDesigns{
+    padding: 100px;
+    line-height: 30px;
+    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left:100px;
+    margin-right:100px;
+   
+}
+
+.innerSavedDesigns{
+    width: 520px; 
+    height: 520px; 
+
+    background-color: white; 
+    border: 5px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+ 
+}
